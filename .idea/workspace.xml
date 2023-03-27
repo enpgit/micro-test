@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f6763e4-4300-404c-9e38-ccba6b6a0886" name="Changes" comment="Запуск нескольких клиентов, как работает балансировщик загрузки">
-      <change beforePath="$PROJECT_DIR$/eureka-client" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client" afterDir="false" />
+    <list default="true" id="4f6763e4-4300-404c-9e38-ccba6b6a0886" name="Changes" comment="Конфиг-сервер">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/github-config-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eureka-client" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -125,7 +127,7 @@
       <updated>1679949008511</updated>
       <workItem from="1679949009323" duration="1397000" />
       <workItem from="1679950539404" duration="76000" />
-      <workItem from="1679950638062" duration="3320000" />
+      <workItem from="1679950638062" duration="6487000" />
     </task>
     <task id="LOCAL-00001" summary="Эврика сервер">
       <created>1679949943786</created>
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679953736433</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Конфиг-сервер">
+      <created>1679954306152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679954306152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="Эврика клиент" />
     <MESSAGE value="api-gateway" />
     <MESSAGE value="Запуск нескольких клиентов, как работает балансировщик загрузки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Запуск нескольких клиентов, как работает балансировщик загрузки" />
+    <MESSAGE value="Конфиг-сервер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Конфиг-сервер" />
   </component>
 </project>
