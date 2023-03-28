@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f6763e4-4300-404c-9e38-ccba6b6a0886" name="Changes" comment="Конфиг-сервер">
+    <list default="true" id="4f6763e4-4300-404c-9e38-ccba6b6a0886" name="Changes" comment="Конфиг-сервер: соединение">
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/com/example/eurekaclient2/EurekaClient2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/com/example/eurekaclient2/controllers/NewTestController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/test/java/com/example/eurekaclient2/EurekaClient2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +42,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -56,16 +74,25 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/enpas/IdeaProjects/spring-demo-eureka/micro-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.24120083",
     "spring.configuration.checksum": "82707b8d26170bb76bba1984f59cffc5",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.eurekaclient2.controllers" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -73,10 +100,24 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication-Inst2">
+  <component name="RunManager" selected="Spring Boot.EurekaClient2Application 2">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient2Application 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient2.EurekaClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-client-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient2.EurekaClient2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,6 +130,13 @@
       </method>
     </configuration>
     <configuration name="EurekaClientApplication-Inst2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-Inst3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -110,10 +158,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.EurekaClient2Application" />
+      <item itemvalue="Spring Boot.EurekaClient2Application 2" />
       <item itemvalue="Spring Boot.GithubConfigServerApplication" />
-      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication-Inst1" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication-Inst2" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-Inst3" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
   </component>
@@ -127,7 +178,7 @@
       <updated>1679949008511</updated>
       <workItem from="1679949009323" duration="1397000" />
       <workItem from="1679950539404" duration="76000" />
-      <workItem from="1679950638062" duration="6487000" />
+      <workItem from="1679950638062" duration="13087000" />
     </task>
     <task id="LOCAL-00001" summary="Эврика сервер">
       <created>1679949943786</created>
@@ -164,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679954306152</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Конфиг-сервер: соединение">
+      <created>1679957376184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679957376185</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +246,7 @@
     <MESSAGE value="api-gateway" />
     <MESSAGE value="Запуск нескольких клиентов, как работает балансировщик загрузки" />
     <MESSAGE value="Конфиг-сервер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Конфиг-сервер" />
+    <MESSAGE value="Конфиг-сервер: соединение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Конфиг-сервер: соединение" />
   </component>
 </project>
